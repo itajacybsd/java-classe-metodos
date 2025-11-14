@@ -5,16 +5,16 @@ public class ClasseTeste {
         Classe c1 = new Classe();
         c1.nome = "Ana";
         Classe.status = 7;
-        IO.println(c1.nome);
+        System.out.println(c1.nome);
         c1.teste();
 
         Classe c2 = new Classe();
         c2.nome = "Pedro";
         Classe.status = 1;
-        IO.println(c2.nome);
+        System.out.println(c2.nome);
         c2.teste();
 
-        IO.println(Classe.status);
+        System.out.println(Classe.status);
         Classe.xyz();
     }
 }

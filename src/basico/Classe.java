@@ -1,8 +1,8 @@
 package basico;
 
 public class Classe {
-    String nome;
-    static int status = 3;
+    String nome;  // membro de objeto
+    static int status = 3; //membro de classe
 
     void teste() {
         System.out.printf("%s %d\n", nome, status);

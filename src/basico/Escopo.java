@@ -5,27 +5,27 @@ public class Escopo {
     int a = 2;
 
     void metodoA() {
-        IO.println(a);
+        System.out.println(a);
 
         int b = 7;
-        IO.println(b);
+        System.out.println(b);
 
         if(b < 10) {
             int c = 12;
-            IO.println(b + c);
-            IO.println(c);
+            System.out.println(b + c);
+            System.out.println(c);
         }
 
         metodoB(b);
     }
 
     void metodoB(int b) {
-        IO.println(a);
-        IO.println(b);
+        System.out.println(a);
+        System.out.println(b);
 
         {
             int x = 2;
-            IO.println(x);
+            System.out.println(x);
         }
     }
 

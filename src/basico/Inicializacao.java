@@ -12,16 +12,16 @@ public class Inicializacao {
     String s;
 
     void metodoA() {
-        IO.println(a);
-        IO.println(b);
-        IO.println(c);
-        IO.println(d + 0);
-        IO.println(e);
-        IO.println(s);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d + 0);
+        System.out.println(e);
+        System.out.println(s);
 
 
         int f = 0;
-        IO.println(f);
+        System.out.println(f);
     }
 
     static void main() {

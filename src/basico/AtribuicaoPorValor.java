@@ -8,7 +8,7 @@ public class AtribuicaoPorValor {
         a++;
         b--;
 
-        IO.println(a);
-        IO.println(b);
+        System.out.println(a);
+        System.out.println(b);
     }
 }

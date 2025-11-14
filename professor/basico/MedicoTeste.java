@@ -3,7 +3,7 @@ package basico;
 public class MedicoTeste {
     static void main() {
 
-        Medico platonista1 = new Medico();
+        MedicoX platonista1 = new MedicoX();
         platonista1.id = 1834;
         platonista1.nome = "Nicholas";
         platonista1.crm = "12345";
@@ -11,7 +11,7 @@ public class MedicoTeste {
 
         System.out.println(platonista1.nome);
 
-        Medico platonista2 = new Medico();
+        MedicoX platonista2 = new MedicoX();
         platonista2.id = 2356;
         platonista2.nome = "Jessica";
         platonista2.crm = "23887";

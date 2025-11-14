@@ -1,6 +1,6 @@
 package basico;
 
-public class ClasseVsObjetoAula5 {
+public class ClasseVsObjetoAula6 {
 }
 // organizar  int, boolean    |          3 , 7.34 , false
 // Estruturas de Dados        vs        Dados
